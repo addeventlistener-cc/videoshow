@@ -5,6 +5,7 @@ import ashboard from './components/ashboard.vue'
 import login from './components/login.vue'
 import register from './components/register.vue'
 import user from './components/user.vue'
+import regsuccess from './components/regsuccess.vue'
 
 let router=new VueRouter({
     routes:[
@@ -15,6 +16,7 @@ let router=new VueRouter({
         {path:'/login',component:login},
         {path:'/register',component:register},
         {path:'/user',component:user},
+        {path:'/register/regsuccess',component:regsuccess},
     ]
 })
 export default router
